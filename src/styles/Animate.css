@@ -1,0 +1,17 @@
+.lightningSlice {
+  animation-name: lightning;
+  animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+  animation-duration: 1s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+@keyframes lightning {
+  from {
+    box-shadow: 5px 20px 30px rgba(255, 16, 16, 0.692);
+  }
+
+  to {
+    box-shadow: -10px -5px 20px rgba(255, 43, 149, 0.692);
+  }
+}

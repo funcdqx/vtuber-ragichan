@@ -1,0 +1,81 @@
+:root {
+  --bg-color: rgb(27, 27, 27);
+  --text-color: red;
+  --primary-color: #be0c21;
+  --secondary-color: #f94892;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../assets/images/bg-main.jpg");
+  background-size: contain;
+  background-position: center;
+  color: var(--text-color);
+}
+
+.App {
+  padding: 100px;
+}
+
+.home {
+  width: 60%;
+  margin: 0px auto;
+  text-align: center;
+}
+
+.content {
+  width: 100%;
+  height: max-content;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+.content-video {
+  width: 350px;
+  height: 200px;
+}
+
+.content-video-item {
+  margin: 10px 0;
+}
+
+.thumbnail-video {
+  border: 10px dashed pink;
+  width: 100%;
+  height: 100%;
+  transition: 200ms ease-in-out all;
+}
+
+.thumbnail-video:hover {
+  border: 15px solid rgb(255, 87, 87);
+}
+
+.cooming-soon h1 {
+  font-size: 150px;
+}
+
+.backButton {
+  position: absolute;
+  top: 50px;
+  right: 20px;
+}
+
+.backButton a {
+  text-decoration: none;
+}
+
+.back-button-link {
+  padding: 20px 30px;
+  background-color: black;
+  color: white;
+  border-radius: 50px;
+}
